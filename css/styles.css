@@ -14,12 +14,25 @@ header{
     justify-content: space-between;
 }
 
-.menu{
+.menucontainer{
     display: flex;
     list-style: none;
     padding: 10px;
     
 }
+
+.menu{
+    font-family: Plus Jakarta Sans;
+    color: #1C1B18;
+    text-decoration: none;
+}
+
+.botonbuscar{
+    font-family: Plus Jakarta Sans;
+    color: #1C1B18;
+    text-decoration: none;
+}
+
 
 li{
     margin-left: 10px;
@@ -38,4 +51,20 @@ li{
 
 body{
     background-color: #F3F0E8;
+}
+
+.categoriascontainer{
+    list-style: none;
+    padding: 20px 16px;
+}
+
+.categoria{
+    color: #1C1B18;
+    text-decoration: none;
+    padding: 20px 16px;
+    font-family: Plus Jakarta Sans;
+}
+
+.elementos{
+    margin-bottom: 10px;
 }
