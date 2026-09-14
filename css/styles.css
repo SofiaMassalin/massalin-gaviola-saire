@@ -3,6 +3,24 @@
     margin: 0;
     padding: 0;
 }
+li, ul, ol {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none; 
+    color: #1C1B18;        
+}
+
+button {
+    background-color: transparent; 
+    border: none;                 
+    padding: 0;                                  
+    font-family: 'Plus Jakarta Sans', sans-serif; 
+    color: #1C1B18;   
+    text-decoration: none;             
+}
 
 header{
     width: 100%;
@@ -23,16 +41,37 @@ header{
 
 .menu{
     font-family: Plus Jakarta Sans;
-    color: #1C1B18;
+    color: #555555;
     text-decoration: none;
+    background-color: #e8e3d9; 
+    padding: 8px 16px;         
+    border: 1px solid #dcd6cd;            
+    border-radius: 8px;        
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+    margin-left: 6px;          
 }
 
 .botonbuscar{
     font-family: Plus Jakarta Sans;
-    color: #1C1B18;
+    color: #555555;
     text-decoration: none;
+    background-color: #e8e3d9; 
+    padding: 8px 16px;         
+    border: 1px solid #dcd6cd;            
+    border-radius: 8px;        
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+    margin-left: 6px;          
+    cursor: pointer;
 }
-
+.input_buscar {
+    padding: 8px 12px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+}
 
 li{
     margin-left: 10px;
@@ -51,6 +90,7 @@ li{
 
 body{
     background-color: #F3F0E8;
+    font-family: Plus Jakarta Sans;
 }
 
 .categoriascontainer{
@@ -67,4 +107,53 @@ body{
 
 .elementos{
     margin-bottom: 10px;
+}
+
+
+.container_recomendados{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.container_masvendidos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.contenedor_producto{
+    width: 17%; 
+    margin: 1%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #E4DECF;
+    border: solid 1px #e0e0e0;
+}
+.nombre_producto,
+.descripcion_producto {
+    margin-bottom: 8px;
+}
+
+.titulo_recomendados{
+    font-weight: 700;
+    margin: 50px 0 20px 15px;
+    width: 100%;
+    font-size: 30px;
+}
+.titulo_masvendidos{
+    font-weight: 700;
+    margin: 50px 0 20px 15px ;
+    font-size: 30px;
+    width: 100%;
+}
+.contenedor_principal {
+    display: flex;
+    width: 100%;
+    align-items: flex-start; 
+}
+.navvertical {
+    width: 20%;
+    padding-right: 20px;
+}
+.contenido_productos {
+    width: 80%;
 }
