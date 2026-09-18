@@ -157,3 +157,9 @@ body{
 .contenido_productos {
     width: 80%;
 }
+
+.fotoproducto{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
