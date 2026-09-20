@@ -151,7 +151,7 @@ body{
     align-items: flex-start; 
 }
 .navvertical {
-    width: 20%;
+    width: 250px;
     padding-right: 20px;
 }
 .contenido_productos {
@@ -163,3 +163,61 @@ body{
     height: 150px;
     border-radius: 10px;
 }
+
+.productcontainer{
+    background-color: #E4DECF;
+    display: flex;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 50px;
+    justify-content: flex-start;
+    height: 550px;
+}
+
+.layoutproduct{
+    display: flex;
+}
+
+.imgchicas{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    padding: 10px;
+}
+
+.fotoizq{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.imggrande{
+    width: 450px;
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.fotomedio{
+    width: 400px;
+    height: 490px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.textoproducto{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-right: 10px;
+    
+}
+
+.descripcion{
+    margin: 10px;
+    text-align: justify;
+}
+
