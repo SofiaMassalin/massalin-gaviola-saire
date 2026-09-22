@@ -13,7 +13,7 @@ a {
     color: #1C1B18;        
 }
 
-button {
+button{
     background-color: transparent; 
     border: none;                 
     padding: 0;                                  
@@ -221,3 +221,39 @@ body{
     text-align: justify;
 }
 
+
+.divlogin{
+    display: flex;
+
+}
+
+.forminicio{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hijologin{
+    margin-bottom: 15px;
+}
+
+.boton_login{
+    font-family: Plus Jakarta Sans;
+    color: #555555;
+    text-decoration: none;
+    background-color: #e8e3d9; 
+    padding: 8px 16px;          
+    border: 1px solid #dcd6cd;            
+    border-radius: 8px;        
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+    margin-left: 6px;          
+    cursor: pointer;
+}
+
+.input_login{
+    padding: 8px 12px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+}
