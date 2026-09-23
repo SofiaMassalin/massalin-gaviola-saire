@@ -222,19 +222,19 @@ body{
 }
 
 
-.divlogin{
+.divlogin, .divregistro{
     display: flex;
 
 }
 
-.forminicio{
+.forminicio, .form_registro{
     width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.hijologin{
+.hijologin, .hijoregistro{
     margin-bottom: 15px;
 }
 
@@ -246,8 +246,7 @@ body{
     padding: 8px 16px;          
     border: 1px solid #dcd6cd;            
     border-radius: 8px;        
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    margin-left: 6px;          
+    font-family: 'Plus Jakarta Sans', sans-serif;          
     cursor: pointer;
 }
 
