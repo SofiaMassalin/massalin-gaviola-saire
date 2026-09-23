@@ -16,96 +16,54 @@
             <img class="logo" src="./img/img logo/logo png.png" alt=""> 
         </a> 
         
-        <form action="./search-results.html" method="get" class="formulario">
-            <input type="text" name="search" value="" class="input_buscar" placeholder="Buscar productos...">
-            <button class="botonbuscar" type="submit">Buscar</button>
-        </form>
-
-        <nav class="navhorizontal">
-            <ul class="menucontainer">
-                <li> <a class="menu" href="./login.html">Log In</a> </li>
-                <li> <a class="menu" href="./register.html">Registro</a> </li>
-            </ul>
-        </nav>
     </header>
 
 
     <main> 
-        <div class="divregistro">
-            <nav class="navvertical">
-                <ul class="categoriascontainer">
-                    <li class="elementos"> <a class="categoria" href="./category.html">Beauty</a> </li>
-                    <li class="elementos"> <a class="categoria" href="./category.html">Fragrances</a> </li>
-                    <li class="elementos"> <a class="categoria" href="./category.html">Furniture</a> </li>
-                    <li class="elementos"> <a class="categoria" href="./category.html">Groceries</a> </li>
-                    <li class="elementos"> <a class="categoria" href="./category.html">Home decoration</a> </li>
-                    <li class="elementos"> <a class="categoria" href="./category.html">Kitchen accesories</a> </li>
-                    <li class="elementos"> <a class="categoria" href="./category.html">Laptops</a> </li>
-                    <li class="elementos"> <a class="categoria" href="./category.html">Mens shirts</a> </li>
-                    <li class="elementos"> <a class="categoria" href="./category.html">Mens shoes</a> </li>
-                    <li class="elementos"> <a class="categoria" href="./category.html">Mens watches</a> </li>
-                    <li class="elementos"> <a class="categoria" href="./category.html">Mobile accesories</a> </li>
-                    <li class="elementos"> <a class="categoria" href="./category.html">Motorcycle</a> </li>
-                    <li class="elementos"> <a class="categoria" href="./category.html">Skincare</a> </li>
-                    <li class="elementos"> <a class="categoria" href="./category.html">Smartphones</a> </li>
-                    <li class="elementos"> <a class="categoria" href="./category.html">Sports accesories</a> </li>
-                    <li class="elementos"> <a class="categoria" href="./category.html">Sunglasses</a> </li>
-                    <li class="elementos"> <a class="categoria" href="./category.html">Tablets</a> </li>
-                    <li class="elementos"> <a class="categoria" href="./category.html">Tops</a> </li>
-                    <li class="elementos"> <a class="categoria" href="./category.html">Vehicle</a> </li>
-                    <li class="elementos"> <a class="categoria" href="./category.html">Womens bags</a> </li>
-                    <li class="elementos"> <a class="categoria" href="./category.html">Womens dresses</a> </li>
-                    <li class="elementos"> <a class="categoria" href="./category.html">Womens jewlery</a> </li>
-                    <li class="elementos"> <a class="categoria" href="./category.html">Womens shoes</a> </li>
-                    <li class="elementos"> <a class="categoria" href="./category.html">Womens watches</a> </li>
+        <div class = "contenedor_registro">
+            <h2 class="titulo_form">Registrate</h2>
+            <form action = "./login.html" method="get" class="hijo_formulario">
+                <div class="hijoregistro">
+                    <label for="mail">Email:</label> <!-- uso un for y el id porque cuando son los mismos me relaciona las dos cosas-->
+                    <input id="mail" class="input_registro" type="email" name="mail" value="">
+                </div>
+
+                <div class="hijoregistro">
+                    <label for="contraseña">Contraseña:</label>
+                    <input id="contraseña" class="input_registro" type="password" name="pass" value=""> 
+                </div>
+
+                <div class="hijoregistro">
+                    <label for="repetir">Repetir contraseña:</label>
+                    <input id="repetir" class="input_registro" type="password" name="pass" value=""> 
+                </div>
+
+                <div class="hijoregistro">
+                    <label>Acepto términos y condiciones</label>
+            
+                    <input id="si" type="checkbox" name="términos" value="Sí"> 
+                    <label for="si">Si</label>
                     
-                </ul>
-            </nav>
+                    <input id="no" type="checkbox" name="términos" value="No">
+                    <label for="no">No</label> 
+                </div>
 
-            <div class="form_registro">
-                <form action= "./login.html" method="get">
-                    <div class="hijoregistro">
-                        <label for="mail">Email:</label> <!-- uso un for y el id porque cuando son los mismos me relaciona las dos cosas-->
-                        <input id="mail" class="input_registro" type="email" name="mail" value="">
-                    </div>
+                <div class="hijoregistro">
+                    <button class="boton_registro" type="submit">Registrarme</button>
+                </div>
 
-                    <div class="hijoregistro">
-                        <label for="contraseña">Contraseña:</label>
-                        <input id="contraseña" class="input_registro" type="password" name="pass" value=""> 
-                    </div>
-
-                    <div class="hijoregistro">
-                        <label for="repetir">Repetir contraseña:</label>
-                        <input id="repetir" class="input_registro" type="password" name="pass" value=""> 
-                    </div>
-
-                    <div class="hijoregistro">
-                        <label>Acepto términos y condiciones</label>
-                        <br> <!-- (busque como comentar para entender esto) br es algo que me habia explicado valen para bajar de linea -->
-
-                        <input id="si" type="checkbox" name="términos" value="Sí"> 
-                        <label for="si">Si</label>
-                        <br> 
-                        
-                        <input id="no" type="checkbox" name="términos" value="No">
-                        <label for="no">No</label> 
-                    </div>
-
-                    <div class="hijoregistro">
-                        <button class="boton_registro" type="submit">Registrarme</button>
-                    </div>
-
-                    <div class="hijoregistro">
-                        <a href="./login.html">Ya tengo cuenta</a>
-                    </div>
-                </form>
-            </div>
+                <div class="hijoregistro">
+                    <a href="./login.html">Ya tengo cuenta</a>
+                </div>
+            </form>
         </div>
     </main>
 
 
     <footer> 
-        <p class="miembrosfooter"> Sofia Massalin, Mercedes Gaviola, Belén Saire</p>
+        <div class="contenedor_footer">
+            <p> Sofia Massalin, Mercedes Gaviola, Belén Saire</p>
+        </div>
     </footer>
 </body>
 </html>
