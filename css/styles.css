@@ -162,6 +162,7 @@ body{
 .navvertical {
     width: 250px;
     padding-right: 20px;
+    align-items: flex-start;
 }
 .contenido_productos {
     width: 80%;
@@ -178,8 +179,10 @@ body{
     display: flex;
     padding: 15px;
     border-radius: 10px;
-    margin: 50px;
-    justify-content: flex-start;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
     height: 550px;
 }
 
@@ -202,7 +205,6 @@ body{
 }
 
 .imggrande{
-    width: 450px;
     display: flex;
     padding-top: 10px;
     padding-left: 10px;
@@ -210,8 +212,8 @@ body{
 }
 
 .fotomedio{
-    width: 400px;
-    height: 490px;
+    width: 450px;
+    height: 480px;
     margin: 10px;
     border-radius: 10px;
 }
@@ -230,7 +232,42 @@ body{
     text-align: justify;
 }
 
+.comentarioscontainer{
+    background-color: #E4DECF;
+    display: flex;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    justify-content: flex-end;
+    height: 200px;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.columna{
+    display: flex;
+    flex-direction: column;
+}
+
+.textocomentario{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.comentario{
+    width: 30%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.titulocomentarios{
+    margin-left: 10px;
+}
 
 
 /* form inicio y registro*/
@@ -259,6 +296,7 @@ body{
     border-radius: 8px;                
     cursor: pointer;
 }
+
 
 .input_login, .input_registro{
     padding: 8px 12px;
