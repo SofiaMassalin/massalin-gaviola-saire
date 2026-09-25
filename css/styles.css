@@ -64,7 +64,6 @@ header{
 .botonbuscar{
     font-family: Plus Jakarta Sans;
     color: #555555;
-    text-decoration: none;
     background-color: #e8e3d9; 
     padding: 8px 16px;         
     border: 1px solid #dcd6cd;            
@@ -72,7 +71,6 @@ header{
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 14px;
     margin-left: 6px;          
-    cursor: pointer;
 }
 .input_buscar {
     padding: 8px 12px;
@@ -365,3 +363,52 @@ body{
     margin-left: 10px;
 }
 
+@media (max-width: 480px){
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.input_buscar{
+    width: 60%;
+}
+.menucontainer{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    align-items: end;
+}
+.menu {
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 13px;
+    width: auto; 
+  }
+  
+
+
+.contenido_productos{
+    flex-wrap: nowrap;
+    width: 40%;
+    
+}
+.contenedor_principal{
+    width: 100%;
+}
+.contenedor_producto{
+    width: 100%;
+}
+
+.titulo_recomendados{
+    margin: 50px 0 20px 0px;
+    font-size: 25px;
+}
+.titulo_masvendidos{
+    margin: 50px 0 20px 0px ;
+    font-size: 25px;
+}
+}
