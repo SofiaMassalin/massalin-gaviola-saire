@@ -305,7 +305,7 @@ body{
     margin-left: 10px;
 }
 
-.titulo_form{ /* titulo de inicia sesión y registrate */
+.titulo_form{ 
     margin-bottom: 15px;
 }
 
@@ -361,6 +361,18 @@ body{
 
 .skincarekit{
     margin-left: 10px;
+}
+.tags_contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.tags{
+    
+    border-radius: 10px;
+    border: 1.5px solid #F3F0E8 ;
+    margin: 5px;
+    padding: 5px;
 }
 
 @media (max-width: 480px){
