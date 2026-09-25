@@ -3,11 +3,13 @@
     margin: 0;
     padding: 0;
 }
+
 li, ul, ol {
     list-style: none; 
     padding: 0;
     margin: 0;
 }
+
 a {
     text-decoration: none; 
     color: #1C1B18;        
@@ -47,7 +49,6 @@ header{
     align-items: center;
 }
 
-
 .menu{
     font-family: Plus Jakarta Sans;
     color: #555555;
@@ -72,6 +73,7 @@ header{
     font-size: 14px;
     margin-left: 6px;          
 }
+
 .input_buscar {
     padding: 8px 12px;
     border: 1px solid #cccccc;
@@ -116,17 +118,18 @@ body{
     margin-bottom: 10px;
 }
 
-
 .container_recomendados{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
 }
+
 .container_masvendidos{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
 }
+
 .contenedor_producto{
     width: 17%; 
     margin: 1%;
@@ -135,6 +138,7 @@ body{
     background-color: #E4DECF;
     border: solid 1px #e0e0e0;
 }
+
 .nombre_producto,
 .descripcion_producto {
     margin-bottom: 8px;
@@ -146,22 +150,26 @@ body{
     width: 100%;
     font-size: 30px;
 }
+
 .titulo_masvendidos{
     font-weight: 700;
     margin: 50px 0 20px 15px ;
     font-size: 30px;
     width: 100%;
 }
+
 .contenedor_principal {
     display: flex;
     width: 100%;
     align-items: flex-start; 
 }
+
 .navvertical {
     width: 250px;
     padding-right: 20px;
     align-items: flex-start;
 }
+
 .contenido_productos {
     width: 80%;
 }
@@ -268,8 +276,6 @@ body{
     margin-left: 10px;
 }
 
-
-/* form inicio y registro*/
 .contenedor_inicio, .contenedor_registro{ /*div que contiene form*/
    background-color: #F3F0E8;
     display: flex;
@@ -297,7 +303,6 @@ body{
     align-self: center;
 }
 
-
 .input_login, .input_registro{
     padding: 8px 12px;
     border: 1px solid #cccccc;
@@ -309,11 +314,6 @@ body{
     margin-bottom: 15px;
 }
 
-
-
-
-
-
 .contenedor_category{
     display: flex;
     width: 100%;
@@ -323,25 +323,26 @@ body{
 .contenedor_skincare{
     width: 80%;
 }
+
 .contenedor_skincare h1{
     font-weight: 700;
     margin: 50px 0 20px 15px;
     font-size: 50px;
     
 }
+
 .contenedor_skincare h2{
     font-weight: 700;
     margin: 20px 0 20px 15px;
     font-size: 25px;
     
 }
+
 .contenedor_productos_categoria{
     display: flex;
     flex-wrap: wrap;
 }
 
-
-/*search result*/
 .resultados_container{
     display: flex;
     flex-direction: row;
@@ -362,11 +363,13 @@ body{
 .skincarekit{
     margin-left: 10px;
 }
+
 .tags_contenedor{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .tags{
     
     border-radius: 10px;
@@ -387,6 +390,7 @@ body{
 .input_buscar{
     width: 60%;
 }
+
 .menucontainer{
     display: flex;
     padding: 0;
@@ -394,27 +398,29 @@ body{
     flex-direction: column;
     align-items: end;
 }
+
 .menu {
     display: inline-block;
     padding: 6px 12px;
     font-size: 13px;
     width: auto; 
-  }
+}
   
 .contenedor_principal{
    display: flex;
    flex-direction: column-reverse;
 }
 
-
 .contenedor_producto{
    width: 47%;
    margin: 5px 5px 5px 5px;
 }
+
 .contenido_productos{
     width: 100%;
     justify-content: space-between;
 }
+
 .container_recomendados .container_masvendidos{
     display: flex;
     flex-wrap: nowrap;
@@ -425,37 +431,45 @@ body{
     display: flex;
     flex-direction: column-reverse;
 }
+
 .contenedor_productos_categoria{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
 }
+
 .layoutproduct{
     display: flex;
     flex-direction: column-reverse;
 }
+
 .productcontainer{
     display: flex;
     flex-direction: column;
     width: 100%;
     align-self: start;
 }
+
 .productcontainer , img{
     max-width: 100%;
     height: auto;
 }
+
 .imgchicas{
     display: flex;
     flex-direction: row; 
 }
+
 .fotoizq{
     width: 60%;
 }
+
 .fotomedio{
     width: 95%;
     height: auto;
 }
+
 .comentarioscontainer{
     display: flex;
     width: 100%;
@@ -463,10 +477,12 @@ body{
     height: auto;
     flex-wrap: nowrap;
 }
+
 .comentario{
     width: 100%;
     padding: 10px;
 }
+
 .resultados_container{
     display: flex;
     flex-direction: column-reverse;
