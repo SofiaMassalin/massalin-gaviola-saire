@@ -48,7 +48,7 @@ header{
 }
 
 
-.menu{
+.menu, .logout{
     font-family: Plus Jakarta Sans;
     color: #555555;
     text-decoration: none;

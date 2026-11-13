@@ -16,6 +16,12 @@
             <img class="logo" src="./img/img logo/logo png.png" alt=""> 
         </a> 
         
+        <ul class="menucontainer">
+            <li><p>Bienvenido: <span class="userName">User Name</span> </p> </li>
+            <li> <a class="logout" href="./register.html">Logout </a> </li>  
+            
+        </ul>
+
         <form action="./search-results.html" method="get" class="formulario">
             <input type="text" name="search" value="" class="input_buscar" placeholder="Buscar productos...">
             <button class="botonbuscar" type="submit">Buscar</button>
@@ -23,8 +29,8 @@
 
         <nav class="navhorizontal">
             <ul class="menucontainer">
-                <li> <a class="menu" href="./login.html">Log In</a> </li>
-                <li> <a class="menu" href="./register.html">Registro</a> </li>
+                <li class="item_login"> <a class="menu" href="./login.html">Log In</a> </li>
+                <li class="item_registro"> <a class="menu" href="./register.html">Registro</a> </li>
             </ul>
         </nav>
     </header>
@@ -231,5 +237,7 @@
             <p> Sofia Massalin, Mercedes Gaviola, Belén Saire</p>
         </div>
     </footer>
+
+    <script src="./js/saludo.js"></script>
 </body>
 </html>
