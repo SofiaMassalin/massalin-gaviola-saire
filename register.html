@@ -24,14 +24,16 @@
             <h2 class="titulo_form">Registrate</h2>
             <form action = "./login.html" method="get" class="hijo_formulario">
                 <div class="hijoregistro">
-                    <label for="mail">Email:</label> <!-- uso un for y el id porque cuando son los mismos me relaciona las dos cosas-->
-                    <input id="mail" class="input_registro" type="email" name="mail" value="">
+                    <label for="mail">Email:</label> 
+                    <input id="mail" class="input_registro" type="email" name="mail" value="" >
                 </div>
+                <p class="mail_incompleto"></p>
 
                 <div class="hijoregistro">
-                    <label for="contraseña">Contraseña:</label>
-                    <input id="contraseña" class="input_registro" type="password" name="pass" value=""> 
+                    <label for="pass">Contraseña:</label>
+                    <input id="pass" class="input_registro" type="password" name="pass" value="" > 
                 </div>
+                <p class="pass_incompleta"></p>
 
                 <div class="hijoregistro">
                     <label for="repetir">Repetir contraseña:</label>
@@ -65,5 +67,7 @@
             <p> Sofia Massalin, Mercedes Gaviola, Belén Saire</p>
         </div>
     </footer>
+
+    <script src="./js/register.js"></script>
 </body>
 </html>

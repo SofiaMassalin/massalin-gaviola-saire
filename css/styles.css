@@ -281,7 +281,6 @@ body{
 .hijologin, .hijoregistro{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 15px;
 }
 
 .boton_login, .boton_registro{
@@ -373,6 +372,12 @@ body{
     margin: 5px;
     padding: 5px;
 }
+
+.mail_incompleto, .pass_incompleta{
+    margin-bottom: 20px;
+}
+
+
 
 @media (max-width: 480px){
 
