@@ -23,8 +23,13 @@ formulario.addEventListener('submit', function(event){
     }
 
     else{
-        //aca tenemos q guardar con local storage 
+         let datosUsuario = {
+            email: inputmail.value, 
+        }
 
+        let usuarioString = JSON.stringify(datosUsuario);
+        localStorage.setItem("user", usuarioString);
+        console.log(localStorage)
 
         this.submit()
     }

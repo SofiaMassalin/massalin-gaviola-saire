@@ -7,6 +7,7 @@ let parrafo_contra = document.querySelector(".pass_incompleta");
 
 formulario.addEventListener('submit', function(event){
     event.preventDefault(); 
+    
 
     if (inputmail.value == ""){
         parrafo_mail.innerHTML = "Ingrese su mail"
@@ -17,19 +18,12 @@ formulario.addEventListener('submit', function(event){
     }
 
     else if (inputpass.value.length < 6){
+        parrafo_mail.innerHTML = ""
         parrafo_contra.innerHTML = "La contraseña tiene que tener al menos seis caracteres"
     }
 
     else{
-        let datosUsuario = {
-            email: inputmail.value, 
-        }
-
-        let usuarioString = JSON.stringify(datosUsuario);
-        localStorage.setItem("user", usuarioString);
-        console.log(localStorage)
-
-        this.submit()
+       this.submit();
     }
     
 
