@@ -165,6 +165,9 @@ body{
     font-size: 30px;
     width: 100%;
 }
+.titulo_categoria{
+    text-transform: capitalize;
+}
 .contenedor_principal {
     display: flex;
     width: 100%;
