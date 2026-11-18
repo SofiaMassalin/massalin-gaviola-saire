@@ -13,7 +13,7 @@ formulario.addEventListener('submit', function(event){
         parrafo_mail.innerHTML = "Ingrese su mail"
     }
     else if (inputpass.value == ""){
-        parrafo_mail.innerHTML = ""
+        parrafo_mail.innerHTML = "" 
         parrafo_contra.innerHTML = "Ingrese su contraseña"
     }
 
