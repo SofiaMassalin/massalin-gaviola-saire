@@ -19,7 +19,6 @@ formulario.addEventListener('submit', function(event){
 
      else if (inputpass.value.length < 6){
         parrafo_contra.innerHTML = "La contraseña tiene que tener al menos seis caracteres"
-       
     }
 
     else{
