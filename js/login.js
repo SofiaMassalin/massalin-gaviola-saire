@@ -9,10 +9,10 @@ let parrafo_contra = document.querySelector(".pass_incompleta");
 formulario.addEventListener('submit', function(event){
     event.preventDefault(); 
 
-    if (inputmail.value == ""){
+    if (inputmail.value === ""){
         parrafo_mail.innerHTML = "Ingrese su mail"
     }
-    else if (inputpass.value == ""){
+    else if (inputpass.value === ""){
         parrafo_mail.innerHTML = "" 
         parrafo_contra.innerHTML = "Ingrese su contraseña"
     }
